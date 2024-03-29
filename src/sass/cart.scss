@@ -1,0 +1,104 @@
+@import 'dark';
+@import 'light';
+
+.cart-page {
+    width: 100%;
+    height: 75vh;
+    background-color: #2B2A31;
+    color: #fff;
+    justify-content: center;
+
+    .con-cart {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+            padding-top: 10vh;
+            padding-bottom: 5vh;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .cart-table {
+            border-color: #ffffff30;
+            width: 100%;
+            color: #fff;
+            justify-content: center;
+            border-style: double;
+            text-align: center;
+            
+            
+
+            .btn-cart1 {
+                background-color: #2B2A31;
+                width: 0;
+                border: 0;
+
+
+                i {
+                    font-size: 20px;
+                    justify-content: center;
+                    text-align: center;
+
+
+                }
+
+                i:hover {
+                    color: #d4cb92;
+                    cursor: pointer;
+                }
+
+
+            }
+
+          
+
+        }
+        .button1-cart{
+            background-color: #2B2A31;
+            border-color: #ffffff30;
+        }
+        .button1-cart:hover{
+           background-color: #d4cb92;
+           color: #2B2A31;
+        }
+
+        .button2-cart{
+            background-color: #2B2A31;
+            border-color: #ffffff30;
+        }
+        .button2-cart:hover{
+            background-color: #d4cb92;
+            color: #2B2A31;
+         }
+        .btn-cart-alldata{
+            background-color: #2B2A31;
+            border: 1;
+            border-radius: 0;
+            margin-bottom: 30px;
+            border-color: #ffffff30;
+            
+        }
+        .btn-cart-alldata:hover{
+            background-color: #d4cb92;
+            color: #2B2A31;
+            
+        }
+        .form-control{
+            width: 100px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            background-color: #2B2A31;
+            border-radius: 0;
+            border-color: #ffffff30;
+        }
+        .form-control:hover{
+            background-color: #d4cb92;
+            color: #2B2A31;
+        }
+
+    }
+
+}

@@ -1,0 +1,142 @@
+@import 'dark';
+@import 'light';
+
+.logo {
+    img {
+        width: 200px;
+        height: 37px;
+    }
+}
+.navbar{
+    background-color: #2B2A31;
+    height: 70px;
+   
+    
+    .nav{
+        font-family: sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    link-home:hover{
+    color: #d4cb92;
+    }
+   .icon{
+    .btn-globe{
+        border: 0;
+    background-color: #2B2A31;
+    }
+    .btn-wish{
+     border: 0;
+    background-color: #2B2A31 !important;
+    text-decoration: none;
+    a{
+        color: #2B2A31 !important;
+        text-decoration: none ;
+    }
+    }
+    .link-wish{
+        text-decoration: none;
+    }
+    .btn-cart{
+    border: 0;
+    background-color: #2B2A31;
+    .icon-cart{
+        color: #fff;
+        text-align: right;
+    }
+   }
+   .btn-search{
+    border: 0;
+    background-color: #2B2A31;
+    .icon-search{
+        color: #fff;
+        text-align: right;
+    }
+   }
+   .btn-lang{
+    border: 0;
+    background-color: #2B2A31;
+   }
+   .btn-mode{
+    border: 0;
+    background-color: #2B2A31;
+   }
+   .btn-bars{
+    border: 0;
+    background-color: #2B2A31;
+    .icon-bars{
+        color: #fff;
+        text-align: right;
+    }
+   }
+   }
+}
+.link-home{
+    color: #d4cb92;
+}
+.link-home:hover{
+    color: #fff!important;
+}
+.dropdown-toggle::after{
+    color: #fff;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+   
+    }
+    .dropdown{
+        background-color: #2B2A31;
+    }
+.login-btn{
+    background-color: #2b2a31 !important;
+    border-color: #d4cb92 !important;
+    border-radius: 0;
+
+}
+.login-btn:hover{
+    background-color: #d4cb92;
+    border-color: #d4cb92;
+    border-radius: 0;
+
+}
+.logout-btn{
+    background-color:#d4cb92;
+    border-color: #d4cb92;
+    border-radius: 0;
+}
+.logout-btn:hover{
+    background-color:#d4cb92;
+    border-color: #d4cb92;
+    border-radius: 0;
+}
+.navbar-collapse{
+    background-color: #2B2A31;
+}
+.navlink-dropdown{
+    background-color: #fff;
+   
+  
+}
+.navlink-dropdown:hover{
+    background-color: #d4cb92;
+    border-radius: 0;
+    
+}
+.dropdown-nav{
+   border: 0;
+   border-radius: 0;
+}
+.btn-lang1{
+    background-color: #fff;
+    border: 0;
+}
+.btn-lang1:hover{
+    background-color: #d4cb92 !important;
+}
+.btn-lang2:hover{
+    background-color: #d4cb92;
+}

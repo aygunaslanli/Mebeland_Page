@@ -1,0 +1,29 @@
+@import 'dark';
+@import 'light';
+.hpg-cards{
+    width: 300px;
+    height: 360px;
+   background-color: #2b2a31;
+    color: #fff;
+    
+    .hpg-cards-img{
+        width: 200px;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .card-body-hpg{
+        text-align: center;
+    }
+    .btn-cart-hpg{
+    background-color: #2b2a31;
+    border-width: 0 0 1px 0;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 0;
+    }
+}
+.hpg-cards:hover{
+    background-color: #27262b;
+}

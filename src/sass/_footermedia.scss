@@ -1,0 +1,32 @@
+@media(max-width:768px) {
+    .section1-footer{
+       display: none;
+       .icons1{
+        height: auto;
+        margin: auto;
+       }
+       .logo{
+        height: auto;
+        margin: auto;
+       }
+       .icons2{
+        height: auto;
+        margin: auto;
+       }
+    }
+    .section2-footer{
+        display: none;
+      
+        .input-footer{
+           width: 200px;
+            justify-content: start;
+            margin: 0;
+          
+            .form-control{
+                width: 250px;
+                justify-content: start;
+                margin: 0;
+            }
+        }
+    }
+}

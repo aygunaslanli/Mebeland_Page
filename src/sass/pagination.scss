@@ -1,0 +1,31 @@
+.pagination-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.page-item{
+    background-color: #2B2A31;
+    color: #ffffff31;
+    border-color: #ffffff31;
+}
+
+.pagination{
+    .page-link{
+        background-color: #2B2A31;
+        color: #ffffff31;
+        border-color: #ffffff31;
+    }
+}
+.page-link:hover{
+    background-color: #d4cb92;
+}
+.page-link1{
+    width: 34px;
+    height: 37px;
+    background-color: #d4cb92;
+    color: #2B2A31;
+    border-color: #ffffff31;
+    text-align: center;
+    padding-top:7px;
+}

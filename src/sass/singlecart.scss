@@ -1,0 +1,75 @@
+@import 'dark';
+@import 'light';
+
+.single-card{
+    width: 250px;
+    height: 360px;
+    background-color: #2B2A31;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    
+   
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .btn-cart{
+        text-align: center;
+        align-items: center;
+        background-color: #2B2A31;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-radius: 0;
+        border-color: aliceblue;
+       
+    }
+    .btn-wish{
+        background-color: #2B2A31;
+        border-style: solid;
+        border-width: 0 0 1px 0;
+        border-radius: 0;
+        border-color: aliceblue;
+    }
+    .more-btn{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .card-price{
+        text-align: center;
+    }
+    
+}
+.single-card:hover{
+        
+    background-color: #27262B;
+    
+}
+.btn-cart:hover{
+    background-color: #27262B;
+    
+}
+.card-body:hover{
+    background-color: #27262B;
+    
+}
+.card-body2{
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.card-title2{
+    text-align: center;
+}
+.card-price2{
+    text-align: center;
+}
+.btn-card-wish{
+   .btn-cart{
+    margin-left: 40px;
+   }
+   
+}

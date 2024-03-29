@@ -1,0 +1,679 @@
+@import 'dark';
+@import 'light';
+
+
+.section1 {
+    width: auto;
+    height: auto;
+    background-image: url("https://cdn.discordapp.com/attachments/1091845697462083585/1095228986558267493/plant-on-pouf-next-to-green-armchair-in-grey-flat-interior-with.jpg");
+    background-position: 400px 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2B2A31;
+
+    .con-h2 {
+        width: 330px;
+        height: 330px;
+        position: absolute;
+        color: #FFFFFF12;
+        font-size: 350px;
+        margin-block-start: 0.43em;
+        margin-inline-start: -50px;
+        font-family:  sans-serif Barlow;
+        font-weight: bold;
+
+    }
+
+    .con-section {
+        height: 100vh;
+        display: flex;
+        width: 100%;
+        align-items: end;
+        justify-content:start;
+
+        .con-page-words{
+            height: auto;  
+            width:130vh;
+            margin-left: 14%;
+           
+            h2 {
+                color: #d4cb92;
+                font-size: 14px;
+                letter-spacing: 3.5px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+
+            .h1-section1 {
+                color: #fff;
+                font-weight: 800;
+                font-size: 85px;
+                line-height: 1.1em;
+                font-family: sans-serif;
+            }
+
+            p {
+                color: #fff;
+                margin: 20px 0 0 -5px;
+                font-family: sans-serif;
+                font-weight: 100;
+            }
+
+            .btn-homepage {
+                border-color: #d4d3d3;
+                background-color: #2B2A31;
+                color: #fff;
+                border-width: 0 0 1px 0;
+                margin: 20px 0 0 -5px;
+                font-family: sans-serif;
+                font-weight: 600;
+                letter-spacing: 3px;
+                font-size: 12px;
+                height: 5vh;
+            }
+
+
+
+
+
+        }
+
+
+
+    } 
+}
+
+.section1-rows {
+    width: 100%;
+    height: 40vh;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ffffff30;
+    display: flex;
+    align-items: center;
+    background-color: #2B2A31;
+    justify-content: space-around;
+
+    .con-section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 85%;
+        margin: 0;
+        .row1 {
+           
+            height: 10vh;
+            border-style: solid;
+            border-width: 2px 0 0 0;
+            border-color: #ffffff30;
+            width: 240px;
+        }
+
+        .row2 {
+           
+            height: 10vh;
+            width: 240px;
+            border-style: solid;
+            border-width: 2px 0 0 0;
+            border-color: #ffffff30;
+
+        }
+
+        .row3 {
+            
+            height: 10vh;
+            width: 240px;
+            border-style: solid;
+            border-width: 2px 0 0 0;
+            border-color: #ffffff30;
+
+        }
+
+        .row4 {
+          
+            height: 10vh;
+            width: 260px;
+            border-style: solid;
+            border-width: 2px 0 0 0;
+            border-color: #ffffff30;
+
+        }
+
+        .words-row {
+            width: 250px;
+            font-size: 18px;
+            height: 10vh;
+            display: flex;
+            color: #fff;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+
+        .numbers-row {
+            width: 20px;
+            height: 10px;
+            display: flex;
+            font-size: 18px;
+            margin-right: 30px;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+    }
+
+
+}
+
+// Section 2 .......................
+
+.section2-page{
+    width: 100%;
+    height: auto;
+    background-color: #2B2A31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .section-boxes {
+        width: 80%;
+       display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    
+        .box1 {
+        
+            height: auto;
+    
+    
+            h5 {
+                color: #d4cb92;
+                margin: 120px 0 20px 0;
+                font-family: sans-serif Barlow;
+                
+            }
+    
+            h2 {
+               
+                color: #fff;
+                font-size: 37px;
+                margin: 30px 0 20px 0;
+                font-family:Barlow, sans-serif;
+                font-weight: 600;
+            }
+    
+            h3 {
+                
+                color: #fff;
+                margin-top: 30px;
+                font-size: 20px;
+            }
+    
+            img {
+                width: 65%;
+                height: 50px;
+                color: #FFFFFF30;
+                margin-top: 50px;
+                opacity: 0.3;
+    
+            }
+            h4{
+                margin-top: -20px;
+                color: #D4CB92;
+                font-size: 16px;
+            }
+    
+            .number2 {
+                color: #FFFFFF12;
+                font-size: 350px;
+                font-family:Barlow, sans-serif;
+                margin-block-start: -0.1em;
+                margin-inline-start: -50px;
+            }
+        }
+    }
+}
+
+.box2 {
+    width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+    h3 {
+        color: #fff;
+        width: 300px;
+        margin: 120px 0 20px 0;
+    }
+
+    p {
+        color: #fff;
+        width: 330px;
+    }
+}
+
+.box3 {
+    width: 390px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    // background-image: url(https://cdn.discordapp.com/attachments/1091845842257854474/1092069905299406940/3d-living-room-and-furniture-with-blank-photo-frame-e1673416654171-q0hpl6fy36td0w2oegb191j6k9kh9regmvuooevc4g.jpg);
+    // background-position:100%;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    .image-section2{
+        width: 400px;
+        height: 70vh;
+    }
+}
+
+// Section 3 ...........................
+
+.section3 {
+    width: 100%;
+    height: 120vh;
+    background-color: #27262B;
+   
+
+    .section3-words {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding-top: 100px;
+        h4{
+            color: #d4cb92;
+            font-size: 19px;
+            height: 40px;
+        }
+
+        h2 {
+            width: 100%;
+            height: 50px;
+            color: #fff;
+
+        }
+
+        p {
+            width: 100%;
+            height: 40px;
+
+            color: #fff;
+
+
+        }
+
+    }
+
+    .number3 {
+
+        height: 220px;
+
+        color: #FFFFFF12;
+        font-size: 350px;
+
+        margin-block-start: -0.78em;
+        margin-block-end: 0.33em;
+        margin-inline-start: 121vh;
+        margin-inline-end: 0;
+    }
+    .carousel-rows{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+// section 4 ............................... 
+
+
+    .section4-page {
+        width: 100%;
+        height: auto;
+        background-color: #2B2A31;
+        position: relative;
+
+       
+
+            .section4-img {
+                width: 75vh;
+                height: 90vh;
+                background-image: url(https://cdn.discordapp.com/attachments/1091845842257854474/1092100017302544405/vertical-view-of-scandinavian-dining-room-with-white-wooden-furniture-e1631527021663.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left: 90px;
+
+            }
+
+            .section4-words {
+                justify-content: center;
+                align-items: center;
+                padding: 80px;
+
+                h4 {
+                    color: #fff;
+                    text-align: end;
+                    margin-bottom: 120px;
+                    font-size: 20px;
+
+                }
+
+                h2 {
+                    color: #fff;
+                    font-size: 35px;
+
+                }
+
+                h5 {
+                    color: #d4cb92;
+                    margin-top: 30px;
+                }
+
+                p {
+                    color: #d4d3d3;
+                    margin-top: 60px;
+                }
+
+                button {
+                    background-color: #2B2A31;
+                    color: #d4d3d3;
+                    border-width: 0 0 1px 0;
+                    border-color: #ffffff30;
+                    padding: 10px;
+
+                    a {
+                        text-decoration: inherit;
+                        color: #fff;
+                        font-size: 13px;
+                        font-family: sans-serif;
+                        letter-spacing: 3.5px;
+                        font-weight: 600;
+
+                    }
+                }
+            }
+
+            .number4 {
+
+                height: 220px;
+
+                color: #FFFFFF12;
+                font-size: 350px;
+
+                margin-block-start: 0.85em;
+                margin-block-end: 0.33em;
+                margin-inline-start: -62vh;
+                margin-inline-end: 0;
+            }
+        
+
+
+
+    }
+
+
+// section 5 ..........................
+
+
+    .section5-page {
+        width: 100%;
+        height: auto;
+        background-color: #2B2A31;
+        
+
+        
+
+
+            .section5-words {
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                padding: 80px;
+
+                h4 {
+                    color: #fff;
+                    text-align: start;
+                    margin-bottom: 90px;
+                    font-size: 20px;
+
+                }
+
+                h2 {
+                    color: #fff;
+                    font-size: 35px;
+                    text-align: end;
+
+                }
+
+                h5 {
+                    color: #d4cb92;
+                    margin-top: 30px;
+                    text-align: end;
+                }
+
+                p {
+                    color: #d4d3d3;
+                    margin-top: 50px;
+                    text-align: end;
+                }
+
+                .btn-section5 {
+                    text-align: end;
+
+                    button {
+                        position: relative;
+                        background-color: #2B2A31;
+                        color: #d4d3d3;
+                        border-width: 0 0 1px 0;
+                        border-color: #ffffff30;
+                        padding: 10px;
+
+                        a {
+                            position: relative;
+                            text-decoration: inherit;
+                            color: #fff;
+                            font-size: 13px;
+                            font-family: sans-serif;
+                            letter-spacing: 3.5px;
+                            font-weight: 600;
+
+                        }
+                    }
+                }
+
+                .number5 {
+                    width: 300px;
+                    height: 300px;
+                    position: absolute;
+                    color: #FFFFFF12;
+                    font-size: 350px;
+                    display: block;
+                    margin-block-start: -0.68em;
+                    margin-block-end: -0.23em;
+                    margin-inline-start: -50px;
+                    margin-inline-end: 0px;
+                }
+            }
+
+
+
+            .section5-img {
+                width: 75vh;
+                height: 90vh;
+                background-image: url(https://cdn.discordapp.com/attachments/1091845842257854474/1092137217402617957/wooden-furniture-and-wicker-accents-in-fashionable-blue-green-and-white-interior.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-right: 132px;
+
+            }
+        
+    }
+
+
+// section 6 .....................
+
+
+    .section6-page {
+        width: 100%;
+        height: auto;
+        background-color: #27262B;
+
+        .con-section6 {
+            width: 100%;
+            height: auto;
+           
+
+            .section6-row1 {
+
+               
+                .section6-words {
+                    margin-top: 100px;
+                    height: 15vh;
+                    
+                   
+
+                    h5 {
+                        color: #d4cb92;
+
+                    }
+
+                    h2 {
+                        color: #fff;
+                    }
+                }
+               
+                .btn-section6{
+                    height: 50px;
+                    background-color: #27262B;
+                    text-align: end;
+                    padding-top: 100px;
+                    padding-right: 100px;
+                    .button-section6 {
+                    font-size: 18px;
+                    background-color: #27262B;
+                    border: 0;
+                    text-align: end;
+                   top: 100px;
+                   .icn-btn{
+                   
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: #27262B; border-color: #D4CB92;
+                   }
+                    a{
+                        margin-left: 30px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                }
+            }
+
+            .section6-row2{
+                
+                .card-section6{
+                    background-color: #27262B;
+                    border-radius: 0;
+                    border: 0;
+                    justify-content: center;
+                align-items: center;
+                text-align: center;
+                    
+                }
+                .icon-section6{
+                    color: #d4cb92;
+                   font-size: 30px;
+                   background-color: #2B2A31;
+                   justify-content: center;
+                   align-items: center;
+                   text-align: center;
+                   border: #2B2A31;
+                  width: 80px;
+                  padding: 15px 5px;
+                }
+                .card-body-section6{
+                    color: #fff;
+                    text-align: center;
+                    justify-content: center;
+                }
+
+            }
+        }
+        .line-section6{
+            width: 171vh;
+            height: 0.2px;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+            background-color: #FFFFFF30;
+           margin-bottom: 30px;
+        }
+        .section6-row3{
+            width: 100%;
+            height: 30vh;
+            justify-content: center;
+            align-items: center;
+            .section6-rows3-cards{
+                background-color: #27262B;
+                border: 0;
+                border-radius: 0;
+                
+                .section6-h1{
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .section6-text{
+                    color: #d4cb92;
+                    text-align: center;
+                }
+               
+            }
+        }
+        
+    }
+
+    // section 7 ...................
+
+// .section7-page{
+//     width: 100%;
+//     height: 93vh;
+//     background-color: #27262B;
+//     display: flex;
+
+   
+//     .box-section7{
+//         width: 113vh;
+//         height: 93vh;
+
+//         .img-section7{
+//             width: 113vh;
+//         }
+       
+       
+        
+//     }
+//     .card-animation-section7{
+//         width: auto;
+//         height: auto;
+        
+       
+        
+//         .card1-animation{
+//              width: 400px;
+//              height: 150px;
+             
+//         }
+//         .card2-animation{
+//             width: 400px;
+//             height: 150px;
+//        }
+//     }
+    
+    
+// }

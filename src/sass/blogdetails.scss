@@ -1,0 +1,23 @@
+.blogdetails-page{
+    width: 100%;
+    height: 120vh;
+    background-color: #2b2a31;
+    .card1-blogdetails{
+        background-color: #2b2a31;
+        border: 0;
+        top: 100px;
+        .blog1-title{
+            font-size: 33px;
+            color: #d4cb92;
+        }
+    }
+   
+    .blogdetails-body:hover{
+        background-color: #2b2a31;
+    }
+    .card2-blogdetails{
+        border: 0;
+        top: 170px;
+        border-radius: 0;
+    }
+}
